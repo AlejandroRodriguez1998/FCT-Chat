@@ -1,0 +1,45 @@
+
+body {
+    background-color: #2C3E50;
+}
+
+.divDE {
+    min-width: 20%;
+    background-color: #808B96;
+    display: inline-block;
+    padding: 0.5%;
+    margin: 0.2% 1%;
+    border: 2px solid #808B96;
+    border-radius: 12px;
+}
+
+.divA {
+    min-width: 20%;
+    background-color: #ABB2B9;
+    display: inline-block;
+    padding: 0.5%;
+    margin: 0.2% 1%;
+    border: 2px solid #ABB2B9;
+    border-radius: 12px;
+}
+
+.btn-color {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.conversacion {
+    width: auto; 
+    height: 250px; 
+    overflow: auto;
+}
+
+.conversacion::-webkit-scrollbar {
+    width: 20px;
+    background-color: white;
+}
+
+.conversacion::-webkit-scrollbar-thumb {
+    background: #2C3E50;
+    border-radius: 4px;
+}
